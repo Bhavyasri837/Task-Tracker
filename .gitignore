@@ -1,0 +1,69 @@
+# =========================
+# Environment / Secrets
+# =========================
+.env
+.env.*
+!.env.example
+
+# API keys / credentials
+*.pem
+*.key
+*.p12
+*.pfx
+credentials.json
+service-account.json
+secrets.json
+
+# =========================
+# Dependencies
+# =========================
+node_modules/
+
+# =========================
+# Logs
+# =========================
+*.log
+logs/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# =========================
+# Build / Generated files
+# =========================
+dist/
+dist-ssr/
+build/
+coverage/
+
+# =========================
+# Local files
+# =========================
+*.local
+
+# =========================
+# macOS
+# =========================
+.DS_Store
+
+# =========================
+# VS Code
+# =========================
+.vscode/*
+!.vscode/extensions.json
+
+# =========================
+# IntelliJ / JetBrains
+# =========================
+.idea/
+
+# =========================
+# Other IDE / OS files
+# =========================
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
